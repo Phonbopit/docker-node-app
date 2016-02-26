@@ -1,11 +1,11 @@
 # docker-node-app
 
-Simple Docker Image run with nodejs [phonbopit/node-app](https://hub.docker.com/r/phonbopit/node-app/)
+Simple Docker Image run with nodejs and automated build on docker hub at  [phonbopit/docker-node-app](https://hub.docker.com/r/phonbopit/docker-node-app/)
 
 ## Run
 
 ```bash
-docker run -p 8080:7777 -d phonbopit/node-app
+docker run -p 8080:7777 -d phonbopit/docker-node-app
 ```
 
 > docker mapped port 7777 inside container to port `8080` on your machine.
